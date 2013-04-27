@@ -1,15 +1,21 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
     <head>
-        <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css"></link>
-        <?php wp_head();?>
-        <style>
-            .no-datalistelem datalist{display:none;}
-        </style>
+        <?php wp_head(); ?>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width; user-scalable=no"/>
     </head>
     <body>
-        <nav>
-            <ul>a</ul>            <ul>b</ul>
-
-        </nav>
-        
+        <div id="wrapper">
+            <!--the header and the navigation-->
+            <div id='header'>
+                <div id="logo">
+                    Responsive Logo
+                </div>
+                <div id='navigation'>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="#">About</a></li>
+                     </ul>
+                </div>
+            </div> 
+            

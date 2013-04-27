@@ -1,13 +1,13 @@
 <?php
 get_header();
 ?>
-<label for="userName">
-    <input list="userlist"  onclick="this.class='abc'" type="text" autofocus/>
-    <datalist id="userlist">
-        <option>韩现龙</option>
-        <option>周友立</option>
-        <option>周2立</option>
-        <option>周3立</option>
-    </datalist>
-</label>
-<?php get_footer();?>
+<!--the content -->
+<div id='content'>
+    <p>here is content</p>
+</div>
+
+<!-- the sidebar -->
+<div id='sidebar'>
+    <p>Here is side bar</p>
+</div>
+<?php get_footer(); ?>
